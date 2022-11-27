@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Reservar Quarto</title>
+</head>
+<body>
+    <header>
+        <h1><a href="./index.html">Barbosa</a></h1>
+        <nav>
+            <div class="navbar">
+                <ul>
+                    <li><a href="">Fotos</a></li>
+                    <li><a href="">Comodidades</a></li>
+                    <li><a href="">Sobre</a></li>
+                    <li><a href="./contato.html">Contato</a></li>
+                </ul>
+                <ul class="ul-icons">
+                    <li><a href=""><img class="icons" src="./img/icons8-f-do-facebook.svg" alt=""></a></li>
+                    <li><a href=""><img class="icons" src="./img/instagram.svg" alt=""></a></li>
+                    <li><a href=""><img class="icons" src="./img/twitter.svg" alt=""></a></li>
+                </ul>
+                <a class="btn-nav" href="">Reservar quarto</a>
+            </div>
+        </nav>
+    </header>
+    <main class="main-reserva">
+        <form action="" method="post" target="_blank" autocomplete="on">
+            <div class="form-flex">
+                <h2> <strong>Formulario de cadastro</strong> </h2>
+                <div class="grid-1">
+                    <div class="input-c">
+                        <label for="nome">Nome:</label>
+                        <input type="text" name="nome" id="nome" required>
+                    </div>
+                    <div class="input-c">
+                        <label for="cpf">CPF:</label>
+                        <input type="number" name="cpf" id="cpf" required>
+                    </div>
+                </div>
+                <div class="grid-2">
+                    <div id="input-radio" class="input-c">
+                        <label for="">Sexo:</label>
+                        <div class="grid">
+                            <div class="grid-div">
+                                <input type="radio" name="sexo_masculino" id="sexo_masculino" required>
+                                <label for="sexo_masculino">Masculino</label>
+                            </div>
+                            <div class="grid-div">
+                                <input type="radio" name="sexo_feminino" id="sexo_feminino" required>
+                                <label for="sexo_feminino">Feminino</label>
+                            </div>
+                            <div class="grid-div">
+                                <input type="radio" name="sexo_outro" id="sexo_outro" required>
+                                <label for="sexo_outro">Outro</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="input-c">
+                        <label for="data">Data de Nascimento:</label>
+                        <input type="date" name="data" id="data" required max="2022-11-26">
+                    </div>
+                </div>    
+                    <div class="input-c">
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                <div class="grid-3">
+                    <div class="input-c">
+                        <label for="rua">Rua:</label>
+                        <input type="text" name="rua" id="rua" required>
+                    </div>
+                    <div class="input-c">
+                        <label for="numero">Número:</label>
+                        <input type="number" name="numero" id="numero" required>
+                    </div>
+                </div>
+                <div class="grid-4">
+                    <div class="input-c">
+                        <label for="cidade">Cidade:</label required>
+                        <input type="text" name="cidade" id="cidade">
+                    </div>
+                    <div class="input-c">
+                        <label for="">UF</label>
+                        <select name="uf" id="uf" required>
+                            <option value="">UF</option>
+                            <option value="">UF</option>
+                            <option value="">UF</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="grid-5">
+                    <div class="input-c">
+                        <label for="numero_adultos">Número de Adultos</label>
+                        <input type="number" name="numero_adultos" id="numero_adultos">
+                    </div>
+                    <div class="input-c">
+                        <label for="numero_crianca">Número de Crianças</label>
+                        <input type="number" name="numero_crianca" id="numero_crianca">
+                    </div>
+                </div>
+                    <div class="input-c">
+                        <input type="submit" value="Reservar">
+                    </div>
+                </div>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <div class="footer">
+            <section>
+                <div class="section-footer">
+                    <h3><a href="./index.html">Barbosa</a></h3>
+                    <ul class="ul-icons">
+                        <li><a href=""><img class="icons" src="./img/icons8-f-do-facebook.svg" alt=""></a></li>
+                        <li><a href=""><img class="icons" src="./img/instagram.svg" alt=""></a></li>
+                        <li><a href=""><img class="icons" src="./img/twitter.svg" alt=""></a></li>
+                    </ul>
+                </div>
+            </section>
+            <section>
+                <div class="section-footer">
+                    <ul>
+                        <li><a href="">Fotos</a></li>
+                        <li><a href="">Comodidades</a></li>
+                        <li><a href="">Sobre</a></li>
+                        <li><a href="">Contato</a></li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </footer>
+</body>
+</html>
